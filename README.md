@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # taller-practico-js-videojuego
 # 🕹️ Juego de Aventuras en Canvas
 
@@ -22,3 +23,6 @@ Este es un pequeño juego desarrollado con **HTML5 Canvas y JavaScript**, donde 
    ```bash
    git clone https://github.com/tu-usuario/tu-repo.git
  
+=======
+# taller-js-platzi-videojuego
+>>>>>>> 9a29e49a8f37ff58eb3e9ca629c24846149adbfa
