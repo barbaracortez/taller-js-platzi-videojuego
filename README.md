@@ -1,28 +1,33 @@
-<<<<<<< HEAD
-# taller-practico-js-videojuego
-# 🕹️ Juego de Aventuras en Canvas
+# Juego de Aventuras en Canvas
 
-Este es un pequeño juego desarrollado con **HTML5 Canvas y JavaScript**, donde el jugador debe moverse por un mapa, evitar enemigos y alcanzar el regalo para pasar de nivel. ¡Incluye control de vidas, tiempo y récord!
+Este es un pequeño juego desarrollado con HTML5 Canvas y JavaScript, donde el jugador debe moverse por un mapa, evitar enemigos y alcanzar el regalo para pasar de nivel. ¡Incluye control de vidas, tiempo y récord!
 
-## 🚀 Cómo jugar
+## Demo
 
-### Controles:
-- Flechas del teclado (⬆️⬇️⬅️➡️)
-- Botones en pantalla (disponibles para pantallas táctiles)
+- **Live**: *(pendiente deploy en GitHub Pages)*
+- **Repo**: [https://github.com/barbaracortez/taller-js-platzi-videojuego](https://github.com/barbaracortez/taller-js-platzi-videojuego)
 
-### Objetivo:
-- 💝 Llega al regalo (emoji `I`) sin chocar con los enemigos (`X`)
-- 🧡 Si chocás con un enemigo, perdés una vida
-- 🧠 Completá todos los niveles lo más rápido posible para superar el récord
+## Objetivos de Aprendizaje
 
----
+- Manipulación del DOM con JavaScript.
+- Uso de HTML5 Canvas para gráficos en 2D.
+- Lógica de juego y control de eventos.
+- Gestión de estados y niveles.
 
-## 🛠️ Cómo ejecutar el proyecto
+## Funcionalidades
 
-1. Cloná o descargá el repositorio:
-   ```bash
-   git clone https://github.com/tu-usuario/tu-repo.git
- 
-=======
-# taller-js-platzi-videojuego
->>>>>>> 9a29e49a8f37ff58eb3e9ca629c24846149adbfa
+- Movimiento del jugador con flechas del teclado o botones táctiles.
+- Evitar enemigos representados por el emoji `X`.
+- Alcanzar el objetivo representado por el emoji `I`.
+- Control de vidas y tiempo.
+- Registro de récords por nivel.
+
+## Tecnologías Utilizadas
+
+- HTML
+- CSS
+- JavaScript (ES6+)
+
+## Estructura del Proyecto
+
+
