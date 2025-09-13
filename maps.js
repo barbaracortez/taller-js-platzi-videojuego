@@ -1,54 +1,51 @@
-/*
- * Reglas:
- * El final de cada nivel debe ser el inicio del siguiente
- */
+// Definición de emojis y mapas
 
 const emojis = {
   "-": " ",
-  O: "🚪",
-  X: "💣",
-  I: "🎁",
+  O: "🚪", // inicio
+  I: "🎁", // meta
+  X: "💣", // enemigo
   PLAYER: "💀",
-  BOMB_COLLISION: "🔥",
-  GAME_OVER: "👎",
-  WIN: "🏆",
   HEART: "❤️",
 };
 
 const maps = [];
+
 maps.push(`
-  IXXXXXXXXX
-  -XXXXXXXXX
-  -XXXXXXXXX
-  -XXXXXXXXX
-  -XXXXXXXXX
-  -XXXXXXXXX
-  -XXXXXXXXX
-  -XXXXXXXXX
-  -XXXXXXXXX
-  OXXXXXXXXX
+O---------
+-XXXXXX---
+-XXXXXX-XX
+-XXXXXX-XX
+---XXX--XX
+---X-----X
+-XXX-XXXX-
+--X---X---
+-XX-XXX-XI
+----------
 `);
+
 maps.push(`
-  O--XXXXXXX
-  X--XXXXXXX
-  XX----XXXX
-  X--XX-XXXX
-  X-XXX--XXX
-  X-XXXX-XXX
-  XX--XX--XX
-  XX--XXX-XX
-  XXXX---IXX
-  XXXXXXXXXX
-  `);
+O-XXXX----
+--XXX-XXX-
+--X--X--X-
+-XX--X--X-
+---XX-XX--
+-XXXX--X--
+---X--X---
+-XX--XX--I
+-XX-XXXX--
+----------
+`);
+
 maps.push(`
-  I-----XXXX
-  XXXXX-XXXX
-  XX----XXXX
-  XX-XXXXXXX
-  XX-----XXX
-  XXXXXX-XXX
-  XX-----XXX
-  XX-XXXXXXX
-  XX-----OXX
-  XXXXXXXXXX
+O--X--X--I
+-XX-XX-XX-
+--X--X--X-
+-XXX-XX-XX
+--X-------
+-XX-XXX-XX
+--X--X--X-
+-XX--XX--X
+-XX-XXXX-X
+----------
 `);

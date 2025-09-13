@@ -1,33 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/taller-practico-js-videojuego/archivos/styles.css">
-    <link rel="stylesheet" href="styles.css">
-    <title>Platzi - games</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juego de mapas</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-    <div class="game-container">
-        <canvas id="game"></canvas>
+    <h1>Mini Juego</h1>
+    <canvas id="game"></canvas>
 
-        <div class="btns">
-            <button id="up">Arriba</button>
-            <button id="left">Izquierda</button>
-            <button id="right">Derecha</button>
-            <button id="down">Abajo</button>
+    <div class="controls">
+        <button id="up">⬆️</button>
+        <div>
+            <button id="left">⬅️</button>
+            <button id="down">⬇️</button>
+            <button id="right">➡️</button>
         </div>
+    </div>
 
-        <div class="message">
-            <p>Vidas: <span id="lives"></span></p>
-            <p>Tiempo: <span id="time"></span></p>
-            <p>Record <span id="record"></span></p>
-            <p id="result"></p>
-        </div>
+    <div class="hud">
+        <p>Vidas: <span id="lives"></span></p>
+        <p>Tiempo: <span id="time">0</span></p>
+        <p>Record: <span id="record">N/A</span></p>
+        <p id="result"></p>
     </div>
 
     <script src="maps.js"></script>
     <script src="games.js"></script>
-    
 </body>
+
 </html>
